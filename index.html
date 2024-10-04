@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Defensa-2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family:cursive
+        }
+        .header-section {
+            background-color: #9ecfff;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .header-buttons {
+            flex: 1;
+        }
+        .header-buttons button {
+            margin-right: 10px;
+        }
+        .search-bar {
+            flex: 1;
+            text-align: right;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+ 
+        .image-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+      
+        .table-container {
+            margin-top: 20px;
+            width: 100%;
+        }
+        .table {
+            width: 100%;
+            text-align: center;
+        }
+        .image-footer {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .image-footer img {
+            border-radius: 50%;
+            max-width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-section">
+        <div class="header-buttons">
+            <button class="btn btn-primary">Prog Web ||</button>
+            <button class="btn btn-secondary">Inicio</button>
+            <button class="btn btn-light">Deslizable</button>
+        </div>
+        <div class="search-bar">
+            <input type="text" class="form-control" placeholder="Search">
+        </div>
+    </div>
+    <div class="container-flex">
+        <div class="main-content">
+            <div class="text-section">
+                <h2>Front-End vs Back-End</h2>
+                <p>¿Cuál es la diferencia entre el front end y back end en el desarrollo de aplicaciones?
+                    Tanto el front end como el back end son aspectos críticos de cualquier aplicación. El front end es aquello que ven los usuarios e incluye elementos visuales, como botones, casillas de verificación, gráficos y mensajes de texto. Permite a los usuarios interactuar con la aplicación. El back-end son los datos y la infraestructura que permiten que la aplicación funcione. Almacena y procesa los datos de las aplicaciones para los usuarios. ¿Cómo funciona el front end de una aplicación?
+                    El término front end hace referencia a la interfaz gráfica de usuario (GUI) con la que los usuarios pueden interactuar de forma directa, como los menús de navegación, los elementos de diseño, los botones, las imágenes y los gráficos. En términos técnicos, una página o pantalla que el usuario ve con varios componentes de la interfaz de usuario se denomina modelo de objetos del documento (DOM).
+                    
+                    Hay tres lenguajes de computación principales que afectan a la forma en que los usuarios interactúan con el front end:
+                    
+                    El lenguaje HTML define la estructura del front end y los diferentes elementos del DOM
+                    Las hojas de estilo en cascada (CSS) definen el estilo de una aplicación web, incluido el diseño, las fuentes, los colores y el estilo visual
+                    JavaScript agrega una capa de funcionalidad dinámica mediante la manipulación del DOM
+                    JavaScript puede activar cambios en una página y mostrar información nueva. Esto significa que el front end puede gestionar las interacciones (o solicitudes) fundamentales de los usuarios, como mostrar un calendario o comprobar si el usuario ha ingresado una dirección de correo electrónico válida. El front end transmite las solicitudes más complejas al back end. </p>
+            </div>
+            <div class="image-section">
+                <img src="ff.png" alt="Front-End vs Back-End">
+            </div>
+        </div>
+        <div class="table-container">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nombre Lenguaje</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Python</td>
+                        <td>
+                            <button class="btn btn-success btn-sm">Aceptar</button>
+                            <button class="btn btn-primary btn-sm">Editar</button>
+                            <button class="btn btn-danger btn-sm">Eliminar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Java</td>
+                        <td>
+                            <button class="btn btn-success btn-sm">Aceptar</button>
+                            <button class="btn btn-primary btn-sm">Editar</button>
+                            <button class="btn btn-danger btn-sm">Eliminar</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>PHP</td>
+                        <td>
+                            <button class="btn btn-success btn-sm">Aceptar</button>
+                            <button class="btn btn-primary btn-sm">Editar</button>
+                            <button class="btn btn-danger btn-sm">Eliminar</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="image-footer">
+            <img src="guido.png" alt="Guido van Rossum">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
